@@ -51,3 +51,89 @@ h1 {
     font-weight: 600;
     color: #1085e4 ;
 }
+
+.page-rosaline span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.text-founder {
+    font-size: 14px;
+    color: #1085e4; 
+}
+
+.page-subscribe h3{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.page-subscribe h3 span{
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+}
+
+.btn-enter {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b1c3ee;
+}
+
+.btn-sub {
+    color: #fff;
+    font-weight: 400;
+    background-color: #1085e4;
+}
+
+.grid-head {
+font-size: 40px;
+font-weight: 700;
+color: #192b59;
+}
+
+.page-software dt {
+    font-size: 14px;
+    color: #5a6789; 
+}
+
+.page-stat h2 span{
+font-size: 12px;
+font-weight: 404;
+color: #1085e4;
+display: block;
+}
+
+.page-stat li{ 
+    font-size: 14px;
+    font-weight: 404;
+    color: #1085e4;
+    display: block;
+}
+
+.page-stat span{ 
+    font-size: 14px;
+    font-weight: 404;
+    color: #c4d2dd;
+    display: block;
+}
+
+.page-app p1{
+font-size: 16px;
+font-weight: 404;
+color: #c4d2dd;
+}
+
+.btn-started{
+    color: #fff;
+    font-weight: 400;
+    background-color: #1085e4;
+}
+
+.btn-learn{
+    color: #fff;
+    font-weight: 400;
+    background-color: #1085e4;
+}
