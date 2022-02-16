@@ -60,3 +60,6 @@ const userProfile = {
 }
 
 console.log(userProfile)
+
+//JSON.parse(); // Из Json в Javascript
+//JSON.stringify(); // Из Javascript в JSON
