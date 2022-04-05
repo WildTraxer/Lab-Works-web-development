@@ -402,6 +402,54 @@ a {
     background-color:#10359f;
 }
 
+.page-software {
+    height: 1000px;
+    background-image: url(../IMG/bg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.znak {
+    margin: 90px 200px 0 900px;
+}
+.grab {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 100px 0 900px;
+    padding: 0;
+}
+.five-slaid {
+    position: absolute;
+    margin: 100px 0;
+}
+.page-software h2 {
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 530px;
+    color: #192b59;
+    line-height: 1.1;
+    letter-spacing: -2.5px;
+    margin-bottom: 65px;
+}
+.page-software p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7581a1;
+}
+.page-software dt {
+    font-size: 16px;
+    font-weight: 700;
+    color:#5a6789;
+    padding: 30px;
+}
+.page-software dd {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9aa3ba;
+}
+
 .title-h2 {
     font-size: 50px;
     font-weight: 600px;
