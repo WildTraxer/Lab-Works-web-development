@@ -760,14 +760,18 @@ a {
     font-size: 40px;
     font-weight: 600px;
     color: #192b59;
+    margin-right: 226px;
+    margin-bottom: 31px;
 }
 
 .page-clients h2 span {
     font-size: 18px;
     font-weight: 800;
     display: block;
-    color: #3c9ce9;
+    color: #fff;
     text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-right: 141px;
 }
 .name {
     font-size: 22px;
