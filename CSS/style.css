@@ -680,30 +680,153 @@ a {
     margin: 0 auto;
 }
 
-.page-app h2{
-    font-size: 50px;
-    font-weight: 600;
-    color: #192b59;
+.page-app {
+    background-color: #fff;
 }
 
-.Ava {
+.slaid_seven {
+    height: 400px;
+    margin:100px 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.storebtn-appstore, .storebtn-gplay {
+  display: inline-block;
+  vertical-align: text-bottom;
+  overflow: hidden;
+  width: 130px;
+  height: 45px;
+  border: none;
+  border-radius: 0.25em;
+  padding: 0;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  color: transparent;
+  color: #FFF;
+  text-indent: -150%;
+  text-decoration: none;
+}
+
+
+.storebtn-appstore {
+  background-image: url(../IMG/btn-appstore-en.png);
+}
+
+.storebtn-gplay {
+    background-image: url(../IMG/btn-gplay-en.png);
+  }
+
+.page-app h2 {
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 450px;
+    line-height: 1.1;
+    color: #192b59;
+}
+.page-app p {
     font-size: 16px;
+    font-weight: 400;
+    color: #bfc4d3;
+}
+
+.page-app h4 {
+    font-size: 12px;
+    font-weight: 400px;
+}
+
+.finans {
+    background-image: url(../IMG/bg8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.page_finans {
+    margin-left: 160px;
+    padding: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_brandon {
+    background-image: url(../IMG/icon.png);
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+    margin-left: 70px;
+    padding-top: 55px;
+    padding-left: 25px;
+}
+.page_finans h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color:black;
+    line-height: 1.1;
+}
+.page_finans p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #b5bfd3;
+    line-height: 1.4;
+}
+.page_finans button {
+    font-size: 12px;
     font-weight: 700;
-    color: #bacbdc;
-    text-transform: uppercase
 }
 
-.page-anytype h2 {
+.page-control {
+    background-image: url(../IMG/bg9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.control {
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_easy {
+    background-image: url(../IMG/icon.png);
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+    margin-right: 50px;
+    padding: 25px;
+    padding-top: 50px;
+
+}
+
+.page-control button {
+    font-size: 12px;
+    font-weight: 700;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.page-control h2 {
     font-size: 50px;
     font-weight: 600;
     color: #192b59;
+    line-height: 1.2;
+    max-width: 450px;
+}
+.page-control p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #b5bfd3;
+    line-height: 1.5;
+    
 }
 
-.page-easy h2 {
-    font-size: 50px;
-    font-weight: 600;
-    color: #192b59;
-}
 /* Блок page-screen*/
 .page-screen h2 span {
     font-size: 18px;
