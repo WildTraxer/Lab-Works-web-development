@@ -67,22 +67,22 @@ body {
 
 .company-one{
     background-image: url(../IMG/Token.png);
-    height: 59px;
+    height: 66px;
 }
 
 .company-two{
     background-image: url(../IMG/Magneto.png);
-    height: 69px;
+    height: 82px;
 }
 
 .company-three{
     background-image: url(../IMG/BooHoo.png);
-    height: 47px;
+    height: 63px;
 }
 
 .company-four{
     background-image: url(../IMG/Fractal.png);
-    height: 69px;
+    height: 86px;
 }
 
 h1 {
@@ -870,6 +870,7 @@ a {
 .page-screen .title-h2 {
     font-size: 40px;
     letter-spacing: -1.1px;
+    margin-left: 424px;
 }
 
 .page-screen .title-h2 span {
@@ -964,6 +965,202 @@ a {
 
 .page-plan .btn-primary{
     background: transparent;
+}
+.page-team {
+    background-image: url(../IMG/bg-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tittle-h2-htl{
+
+    font-size: 50px;
+     font-weight: 600;
+     color: #192b59;
+     line-height: 55px;
+    text-align: center;
+ 
+ }
+.page-team .tittle-h2-htl {
+    text-transform: capitalize;
+    letter-spacing: -1.4px;
+    color: #fff;
+}
+
+.page-team  .wrap {
+    padding-top: 85px;
+    padding-bottom: 120px;
+}
+
+.page-team  .tittle-h2-htl span {
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3.8px;
+    color: #85c8ff;
+    margin-bottom: 20px;
+}
+
+.box-team {
+ 
+    display: flex;
+    margin-top: 140px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.box-team-item {
+    height: 380px;
+    background: white;
+    flex-basis: 85px;
+    min-width: 341px;
+    position: relative;
+    text-align: center;
+    box-shadow: 2px 8px 15px rgb(180 181 181 / 20%);
+    box-sizing: border-box;
+    margin-left: 22px;
+
+}
+
+.box-team-item:nth-child(3) {
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.box-team-item img {
+    position: absolute;
+    top: -85px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.box-team-item .position {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1a88e1;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    margin-top: 207px;
+    margin-bottom: 0;
+}
+
+.box-team-item .name {
+    font-size: 25px;
+    font-weight: 600;
+    color: #192b59;
+    letter-spacing: -0.8px;
+    margin-top: 7px;
+}
+.team-social {
+    height: 52px;
+    width: 52px;
+    background: #f3f3f3;
+    background-image: url(../IMG/soc.png);
+    border-radius: 50%;
+    background-position: -22px 5px;
+    margin: 0 auto 38px;
+}
+
+.team-social:hover {
+    background-color: #1a88e1;
+    background-position: -22px 55px;
+    box-shadow: 2px 8px 15px rgb(180 181 181 / 20%);
+}
+.btn-alberto{
+    
+    background: #f3f3f3;
+    
+    border-radius: 50%;
+    background-position: -22px 5px;
+    margin: 0 auto 20px;
+    background-image: url(../IMG/soc.png);
+}
+.btn-ri{
+    background: #f3f3f3;
+    
+    border-radius: 50%;
+    background-position: -22px 5px;
+    margin: 0 auto 20px;
+    background-image: url(../IMG/soc.png);
+}
+.btn-alva{
+    background: #f3f3f3;
+    
+    border-radius: 50%;
+    background-position: -22px 5px;
+    margin: 0 auto 20px;
+    background-image: url(../IMG/soc.png);
+}
+.btn-ri:hover{
+    background-color: #1a88e1;
+    background-position: -22px 55px;
+    box-shadow: 2px 8px 15px rgb(180 181 181 / 20%);
+}
+.btn-alva:hover{
+    background-color: #1a88e1;
+    background-position: -22px 55px;
+    box-shadow: 2px 8px 15px rgb(180 181 181 / 20%);
+}
+.btn-alberto:hover{
+    background-color: #1a88e1;
+    background-position: -22px 55px;
+    box-shadow: 2px 8px 15px rgb(180 181 181 / 20%);
+}
+.link-social-box {
+
+    display: flex;
+
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+
+.link-social-box .link-social {
+    height: 52px;
+    width: 52px;
+    background-color: #f3f3f3;
+    background-image: url(../IMG/soc.png);
+    border-radius: 50%;
+    margin-bottom: 38px;
+
+}
+
+.link-fb {
+    background-position: -59px 5px;
+}
+
+.link-tv {
+    background-position: -94px 5px;
+}
+
+.link-be {
+    background-position: -130px 4px;
+}
+
+.link-web {
+    background-position: -168px 5px;
+}
+
+.link-social-box .link-social:hover {
+    background-color: #1a88e1;
+}
+
+.link-fb:hover {
+    background-position: -59px -36px;
+}
+
+.link-tv:hover {
+    background-position: -94px -36px;
+}
+
+.link-be:hover {
+    background-position: -131px -37px;
+}
+
+.link-web:hover {
+    background-position: -170px -38px;
 }
 
 .box-price {
